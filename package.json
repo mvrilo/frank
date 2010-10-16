@@ -1,0 +1,17 @@
+{
+	"name" : "frank",
+	"description" : "Yet another Sinatra-like microframework for Node",
+	"keywords" : ["sinatra","framework","http"],
+	"version" : "1.0.0",
+	"author" : "Murilo Santana <mvrilo@gmail.com>",
+	"repository" : {
+		"type" : "git",
+	    "url" : "http://github.com/mvrilo/frank.git"
+	},
+	"main" : "./lib/frank.js",
+	"dependencies" : {
+		"mime" : ">= 1.0.0",
+		"jsmin" : "= 1.0.0"
+	},
+	"engines": { "node": ">= 0.2.0" }
+}
