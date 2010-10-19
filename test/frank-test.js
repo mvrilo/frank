@@ -1,4 +1,4 @@
-var f = require('../frank'),
+var f = require('../lib/frank'),
 	server = f.server,
 	get = f.get, run = f.run;
 
