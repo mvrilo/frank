@@ -5,12 +5,13 @@ yet another sinatra-like microframework
 
 **Example:**
 
-    var f = require('frank');
+    var f = require('frank'),
+		get = f.get, run = f.run;
 
-    f.get('/').write('ok').end();
-    f.get('/js').send('path/to/javascript.js').end();
+    get('/').write('ok').end();
+    get('/js').send('path/to/javascript.js').end();
 
-    f.run(8888);
+    run(8888);
 
 more info soon...
 
