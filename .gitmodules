@@ -1,0 +1,6 @@
+[submodule "deps/uglifyjs"]
+	path = deps/uglifyjs
+	url = git://github.com/mishoo/UglifyJS.git
+[submodule "deps/mime"]
+	path = deps/mime
+	url = git://github.com/bentomas/node-mime.git
