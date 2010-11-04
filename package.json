@@ -2,7 +2,7 @@
 	"name" : "frank",
 	"description" : "Yet another Sinatra-like microframework for Node",
 	"keywords" : ["sinatra","framework","http"],
-	"version" : "1.2.0",
+	"version" : "1.2.1",
 	"author" : "Murilo Santana <mvrilo@gmail.com>",
 	"repository" : {
 		"type" : "git",
