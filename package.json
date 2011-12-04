@@ -1,13 +1,14 @@
 {
-	"name" : "frank",
-	"description" : "Yet another Sinatra-like microframework for Node",
-	"keywords" : ["sinatra","framework","http"],
-	"version" : "1.2.1",
-	"author" : "Murilo Santana <mvrilo@gmail.com>",
-	"repository" : {
-		"type" : "git",
-	    "url" : "http://github.com/mvrilo/frank.git"
-	},
-	"main" : "./lib/frank.js",
-	"engines": { "node": ">= 0.2.4" }
+  "name" : "frank",
+  "description" : "Microframework for easy and fast development in Node",
+  "keywords" : ["sinatra", "framework", "http", "minimal", "connect"],
+  "version" : "2.0.0",
+  "author" : "Murilo Santana <mvrilo@gmail.com>",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/mvrilo/frank.git"
+  },
+  "main" : "./lib/frank.js",
+  "dependencies": { "connect": "< 2.0.0" },
+  "engines": { "node": ">= 0.5.0 < 0.7.0" }
 }
