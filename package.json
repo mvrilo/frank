@@ -9,6 +9,6 @@
     "url" : "http://github.com/mvrilo/frank.git"
   },
   "main" : "./lib/frank.js",
-  "dependencies": { "connect": "< 2.0.0" },
+  "dependencies": { "connect": "< 2.0.0", "consolidate": "*" },
   "engines": { "node": ">= 0.5.0 < 0.7.0" }
 }
