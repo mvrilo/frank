@@ -1,5 +1,4 @@
-var frank = require('../lib/frank'),
-    server = frank();
+var http = require('../lib/frank').createServer();
 
-server.get('/').send('not so minimal api ftw too');
-server.listen(8000)
+http.get('/').send('not so minimal api ftw too');
+http.listen(8000);
