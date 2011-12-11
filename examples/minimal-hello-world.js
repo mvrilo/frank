@@ -1,5 +1,6 @@
-var f = require('../lib/frank'), server = f(),
-    get = server.get, run = server.run;
+var f = require('../lib/frank').createServer(),
+    get = f.get, log = f.log, run = f.run;
 
 get('/').send('minimal api ftw');
+log('tiny');
 run(8000);
