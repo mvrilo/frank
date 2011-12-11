@@ -1,24 +1,17 @@
 # frank
 
-yet another sinatra-like microframework
----------------------
+Simple web development framework built on top of [connect]
 
-**Example:**
+##EXAMPLES
 
-    var f = require('frank'),
-		get = f.get, run = f.run;
+See [examples]
 
-    get('/').write('ok').end();
-    get('/js').send('path/to/javascript.js').end();
+##LICENSE
 
-    run(8888);
+Murilo Santana <<mvrilo@gmail.com>>
 
-more info soon...
+See [LICENSE]
 
-MIT License
-
-
-2010, Murilo Santana
-
-
-mvrilo@gmail.com
+[connect]: http://senchalabs.github.com/connect/
+[examples]: https://github.com/mvrilo/frank/blob/master/examples
+[LICENSE]: https://github.com/mvrilo/frank/blob/master/LICENSE
