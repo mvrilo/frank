@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/mvrilo/frank.png)](http://travis-ci.org/mvrilo/frank)
 # frank
 
 Simple web development framework built on top of [connect]
